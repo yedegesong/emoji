@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>表情</title>
+    <script type="text/javascript" src="lib/zepto.js"></script>
+    <link rel="stylesheet" href="lib/frozenui-1.3.0/css/frozen.css"/>
+    <link rel="stylesheet" href="lib/taobao-font/iconfont.css"/>
+    <link rel="stylesheet" href="css/mod.emoji.css"/>
+	<link rel="stylesheet" href="css/mod.bz.css"/>
+	
+</head>
+<body>
+  <section id="replyer">
+        <div class="topic-bottom-bar">
+        <div id="result" class="reply replyer-emoji-box "></div>
+            <div class="reply">
+                <span>
+                    回复 <b >楼主</b>
+                </span>
+                <textarea placeholder="请输入回复内容不少于3个字" class="replyInput " id="textContent"></textarea>
+            </div>
+
+            <div class="replyer-panel">
+                <div class="emoji" id="emojiBtn">
+                    <i class="icon iconfont">&#xf00f5;</i>
+                </div>
+                <div id="byBtn">编译</div>
+            </div>
+            <div class="face-main" id="faceMain">
+                <div class="face-main-box" id="faceMainBox">
+                   
+                </div>
+                <ul class="nav-tab-face selfclear" id="navTabBox"></ul>
+            </div>
+            <div class="ctrlBar">
+                <a class="btn btn-blue submit">回复</a>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="lib/zepto.touchSwipe.js"></script>
+    <script type="text/javascript" src="modules/module.emoji.js"></script>
+    <script type="text/javascript" src="modules/index.controller.js"></script>
+</body>
+</html>
