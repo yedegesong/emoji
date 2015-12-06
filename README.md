@@ -11,7 +11,7 @@ https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
 <script type="text/javascript" src="lib/zepto.js"></script>
 <script type="text/javascript" src="lib/zepto.touchSwipe.js"></script>
 <script type="text/javascript" src="modules/module.emoji.js"></script>
-<script type="text/javascript" src="modules/activity.particulars.controller.js"></script>
+<script type="text/javascript" src="modules/index.controller.js"></script>
 <link rel="stylesheet" href="css/mod.emoji.css"/>
 ```
  
