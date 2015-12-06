@@ -22,6 +22,8 @@ https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
 emoji.emojiInit();
 
 ```
+### 在线预览地址
+http://yedegesong.github.io/emoji/
 
 ### HTML结构
 
